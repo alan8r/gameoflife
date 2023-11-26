@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="data:,;" type="image/x-icon">
+    <title>Document</title>
+    <script src="main.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<center>
+    <span id="title">Conway's Game of Life (<small><a href="https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life">Wikipedia article</a></small>)</span>
+    <br/>
+    <span id="author">By Alan8r</span>
+    <br/><br/>
+    <label class="nopad">
+        Generation:&nbsp;&nbsp;<span id="gen">1</span>
+    </label>
+    <br/><canvas></canvas><br/>
+    <button id="step">Step</button>
+    <button id="start">Start</button>
+    <button id="pause" disabled>Pause</button>
+    <button id="clear">Reset</button>
+    <label>
+        <b>FPS:</b>
+        
+        <input id='fps' type="number"/>
+    </label>
+    <label class="nopad">
+        <input id ="check" type="checkbox"/>
+        Flip x/y (resets)
+    </label>
+</center>
+</body>
+</html>

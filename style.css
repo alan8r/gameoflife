@@ -1,0 +1,38 @@
+body {
+    background-color: #555;
+}
+
+canvas {
+    border: solid 1px #000;
+    background-color: #fff;
+}
+
+label {
+    color: #fff;
+    padding: 3em 3em;
+}
+
+label.nopad {
+    padding: 0;
+}
+
+input#fps {
+    width: 4em;
+}
+
+h1 {
+    color: #fff;
+}
+
+span {
+    color: #fff;
+}
+
+span#title {
+    font-size: 2em;
+}
+
+span#author {
+    font-size: 1.3em;
+    padding-bottom: 2em;
+}
